@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.db
+*.log
+node_modules/
+screenshots/
+aria-inbox/
+aria-library/originals/
+gmail-credentials.json
+gmail-token.json
+gcal-token.json
+.backup-password
+*.tar.gz.enc
+.DS_Store
+.claude/

@@ -1,0 +1,37 @@
+{
+  "name": "openibis",
+  "version": "1.0.0",
+  "description": "AI Business Operating System \u2014 self-evolving agent that runs your business from Telegram",
+  "main": "zorian.js",
+  "scripts": {
+    "start": "node ibis.js",
+    "pm2": "pm2 start ibis.js --name ibis --restart-delay=5000"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "telegram",
+    "bot",
+    "business",
+    "automation",
+    "self-evolving"
+  ],
+  "author": "Irina Fain <soul@openclaw.ai>",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.86.1",
+    "@mendable/firecrawl-js": "^4.18.2",
+    "axios": "^1.15.0",
+    "better-sqlite3": "^12.8.0",
+    "cheerio": "^1.2.0",
+    "googleapis": "^171.4.0",
+    "groq-sdk": "^1.1.2",
+    "node-telegram-bot-api": "^0.67.0",
+    "playwright": "^1.59.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamnewearth/openibis.git"
+  }
+}
